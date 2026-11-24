@@ -123,6 +123,11 @@ st.caption(
     "Retrieval-Augmented Generation over the Merck Manual. Embeddings: all-MiniLM-L6-v2 + "
     "Chroma. LLM: openai/gpt-oss-20b via Groq."
 )
+st.info(
+    "⏳ **Heads up:** this is a demo running on a free server that goes to sleep when idle. "
+    "Your first question may take 30–60 seconds while it wakes up and loads the manual's index — "
+    "after that, answers come back in a few seconds."
+)
 st.warning(
     "Educational demo only — not medical advice. Answers come solely from retrieved "
     "passages of the Merck Manual and may be incomplete. Always consult a qualified clinician."
